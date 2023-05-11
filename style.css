@@ -107,7 +107,16 @@ html {
     display: none;
 }
 
+.banniere-titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
 
+.reduct-text {
+    font-size: 1.5em;
+}
 
 
 
@@ -117,7 +126,12 @@ html {
     .navbar-desktop {
         display: none;
     }
+
     .navbar-mobile {
         display: block;
+    }
+
+    .reduct-text {
+        display: none;
     }
 }
